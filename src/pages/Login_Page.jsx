@@ -7,7 +7,7 @@ const Login=()=>{
 const  navs=useNavigate();
     return(
         <>
-   
+ 
     <Container >
         <Row>
             <Col xs={12} md={4}>

@@ -29,7 +29,11 @@ const Home=()=>{
         <Col className="" sm={8} md={6} lg={4}> 
 
          <Button style={{"fontSize":"1.4rem"}} variant="light" onClick={handleShow}>
-         <i className="fa-solid fa-bars"></i>
+         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hdd-stack" viewBox="0 0 16 16">
+  <path d="M14 10a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h12zM2 9a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1a2 2 0 0 0-2-2H2z"/>
+  <path d="M5 11.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-2 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM14 3a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"/>
+  <path d="M5 4.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-2 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+</svg>
       </Button>
 
 
@@ -56,10 +60,10 @@ const Home=()=>{
 
   <Col className="" sm={8} md={6} lg={4}> 
 
-   <Button variant="none" onClick={handleShow1} className="h6" style={{"marginTop":"-2rem"}}>
-  Reports
+   <Button variant="none" onClick={handleShow1} className="h6  text-dark d-flex w-full" style={{"marginTop":"0rem"}}>
+  Reports (prees here)
 </Button>
-<li className="h6" id="list-item"> <i className="fa-solid fa-address-book"></i> Contact</li>
+
        
 
 
@@ -69,7 +73,7 @@ const Home=()=>{
 
 <Image src={logo3} roundedCircle style={{"width":"2.5rem","height":"2.5rem"}} className="ms-auto me-3 mt-3"/>
 </div>
-    <p className="h4 text-center">Reports</p>
+    <p className="h4 text-center">Reports </p>
    
   <Offcanvas.Header closeButton className="me-3 ms-auto">
    
