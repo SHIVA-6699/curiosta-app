@@ -4,8 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import { useState } from "react";
 import { useNavigate } from "react-router";
 
+
 import logo3 from '../assets/image/logo3.jpg'
-import "https://kit.fontawesome.com/2a1889b53c.js"
+
 
 const Home=()=>{
     const [show, setShow] = useState(false);
